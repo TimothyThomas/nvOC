@@ -180,7 +180,7 @@ nvOC_1bash_ver="v0019-2.0.003"   # Do not edit this
 #                                                      #
 ########################################################
 
-COIN="COIN"
+COIN="SMART"
 
 AUTO_START_MINER="YES"      # YES or NO # Set this to NO when troubleshooting, this will prevent the watchdog restarting the rig
 
@@ -759,7 +759,7 @@ BTCZ_PORT="5586"
 # SMART ## No Need to add stratum+tcp:// to server address
 SMART_WORKER="thomas1"
 SMART_ADDRESS="tthomas41782"
-SMART_POOL="pool-eu.smartcash.cc"
+SMART_POOL="pool-us.smartcash.cc"
 SMART_PORT="3333"
 SMART_INTENSITY="25"
 
