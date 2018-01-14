@@ -73,23 +73,6 @@ then
   SALFTER="YES"
 fi
 
-## TRT added this to mine SMART
-## taken from https://nvoc-mining-os.com/new-coins/new-coin-smart
-if [ $COIN == "SMART" ]
-then
-HCD='/home/m1/ASccminer/ccminer'
-ADDR="$SMART_ADDRESS.$SMART_WORKER"
-screen -dmSL miner $HCD -a keccak -o $SMART_POOL -u $ADDR -p x -i $SMART_INTENSITY
-if [ $LOCALorREMOTE == "LOCAL" ]
-then
-screen -r miner
-fi
-BITCOIN="theGROUND"
-while [ $BITCOIN == "theGROUND" ]
-do
-sleep 60
-done
-fi
 
 
 if [ $CLEAR_LOGS_ON_BOOT == "YES" ]
@@ -1147,9 +1130,27 @@ EOF
 fi
 
 
-# Infinite Loop
-while true
-do
-  sleep 60
-done
 
+## TRT modifications below, to mine SMART
+## taken from https://nvoc-mining-os.com/new-coins/new-coin-smart
+# Infinite Loop
+#while true
+#do
+#  sleep 60
+#done
+
+if [ $COIN == "SMART" ]
+then
+HCD='/home/m1/ASccminer/ccminer'
+ADDR="$SMART_ADDRESS.$SMART_WORKER"
+screen -dmSL miner $HCD -a keccak -o $SMART_POOL -u $ADDR -p x -i $SMART_INTENSITY
+if [ $LOCALorREMOTE == "LOCAL" ]
+then
+screen -r miner
+fi
+BITCOIN="theGROUND"
+while [ $BITCOIN == "theGROUND" ]
+do
+sleep 60
+done
+fi
