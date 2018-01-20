@@ -1142,8 +1142,7 @@ fi
 if [ $COIN == "SMART" ]
 then
 HCD='/home/m1/ASccminer/ccminer'
-#ADDR="$SMART_ADDRESS.$SMART_WORKER"
-ADDR="$SMART_ADDRESS"
+ADDR="$SMART_ADDRESS.$SMART_WORKER"
 screen -dmSL miner $HCD -a keccak -o $SMART_POOL -u $ADDR -p x -i $SMART_INTENSITY
 if [ $LOCALorREMOTE == "LOCAL" ]
 then

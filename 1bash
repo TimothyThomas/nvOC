@@ -757,15 +757,17 @@ BTCZ_POOL="btcz.suprnova.cc"
 BTCZ_PORT="5586"
 
 # SMART ## No Need to add stratum+tcp:// to server address
+# the following inputs are for the smartcash pool
 #SMART_WORKER="thomas1"
 #SMART_ADDRESS="tthomas41782"
 #SMART_POOL="pool-us.smartcash.cc"
 #SMART_PORT="3333"
 #
+# the following inputs are for the mrmetech pool
 SMART_WORKER=""
 SMART_ADDRESS="STqT5oX8BmB7FW2V1Y5uPo8qL1e59UVzTV"
 SMART_POOL="mrmetech.me"
-SMART_PORT="8080"
+SMART_PORT="3256"
 #
 SMART_INTENSITY="25"
 
