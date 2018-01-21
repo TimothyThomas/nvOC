@@ -1154,3 +1154,19 @@ do
 sleep 60
 done
 fi
+
+if [ $COIN == "GARLIC" ]
+then
+HCD='/home/m1/ASccminer/ccminer'
+ADDR="$SMART_ADDRESS"
+screen -dmSL miner $HCD -a scrypt:11 -o stratum+tcp://$GARLIC_POOL:$GARLIC_PORT -u $ADDR
+if [ $LOCALorREMOTE == "LOCAL" ]
+then
+screen -r miner
+fi
+BITCOIN="theGROUND"
+while [ $BITCOIN == "theGROUND" ]
+do
+sleep 60
+done
+fi

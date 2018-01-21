@@ -41,6 +41,13 @@ then
 #
 fi
 
+if [ $COIN == "GARLIC" ]
+then
+  HCD='/home/m1/TPccminer/ccminer'
+  ADDR="$GARLIC_ADDRESS"
+  screen -dmSL miner $HCD -a scrypt:11 -o stratum+tcp://$GARLIC_POOL:$GARLIC_PORT -u $ADDR
+fi
+
 if [ $COIN == "BTG" ]
 then
 

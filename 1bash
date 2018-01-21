@@ -180,7 +180,7 @@ nvOC_1bash_ver="v0019-2.0.003"   # Do not edit this
 #                                                      #
 ########################################################
 
-COIN="SMART"
+COIN="GARLIC"
 
 AUTO_START_MINER="YES"      # YES or NO # Set this to NO when troubleshooting, this will prevent the watchdog restarting the rig
 
@@ -771,6 +771,10 @@ SMART_PORT="3256"
 #
 SMART_INTENSITY="25"
 
+GARLIC_WORKER=""
+GARLIC_ADDRESS="GftLUdg9brKsFTj45HaHQFR3JtNZgsTw85"
+GARLIC_POOL="pool.garlicpool.com"
+GARLIC_PORT="3333"
 
 ########################################################
 #                                                      #
