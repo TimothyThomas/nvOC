@@ -773,7 +773,9 @@ SMART_INTENSITY="25"
 
 GARLIC_WORKER=""
 GARLIC_ADDRESS="GftLUdg9brKsFTj45HaHQFR3JtNZgsTw85"
-GARLIC_POOL="pool.garlicpool.com"
+#GARLIC_POOL="garlicmine.com"
+GARLIC_POOL="us.pool.garlicsoup.xyz"
+#GARLIC_POOL="pool.grlc-bakery.fun"
 GARLIC_PORT="3333"
 
 ########################################################
