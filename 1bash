@@ -180,7 +180,7 @@ nvOC_1bash_ver="v0019-2.0.003"   # Do not edit this
 #                                                      #
 ########################################################
 
-COIN="GARLIC"
+COIN="ETH"
 
 AUTO_START_MINER="YES"      # YES or NO # Set this to NO when troubleshooting, this will prevent the watchdog restarting the rig
 
@@ -926,8 +926,8 @@ TARGET_TEMP_18=75
 INDIVIDUAL_CLOCKS="YES"        # YES NO
 
 # Set individual clocks here if INDIVIDUAL_CLOCKS="YES"
-#__CORE_OVERCLOCK_0=-100
-#MEMORY_OVERCLOCK_0=800
+__CORE_OVERCLOCK_0=-100
+MEMORY_OVERCLOCK_0=800
 #
 #__CORE_OVERCLOCK_1=-100
 #MEMORY_OVERCLOCK_1=1050
@@ -948,27 +948,27 @@ INDIVIDUAL_CLOCKS="YES"        # YES NO
 #MEMORY_OVERCLOCK_6=1050
 #
 # individual clocks for GARLIC 
-__CORE_OVERCLOCK_0=-100
-MEMORY_OVERCLOCK_0=800
-
-__CORE_OVERCLOCK_1=-100
-MEMORY_OVERCLOCK_1=1000
-
-__CORE_OVERCLOCK_2=-100
-MEMORY_OVERCLOCK_2=1000
-
-__CORE_OVERCLOCK_3=-100
-MEMORY_OVERCLOCK_3=1000
-
-__CORE_OVERCLOCK_4=-100
-MEMORY_OVERCLOCK_4=1000
-
-__CORE_OVERCLOCK_5=-100
-MEMORY_OVERCLOCK_5=800
-
-__CORE_OVERCLOCK_6=-100
-MEMORY_OVERCLOCK_6=1000
-
+#__CORE_OVERCLOCK_0=-100
+#MEMORY_OVERCLOCK_0=800
+#
+#__CORE_OVERCLOCK_1=-100
+#MEMORY_OVERCLOCK_1=1000
+#
+#__CORE_OVERCLOCK_2=-100
+#MEMORY_OVERCLOCK_2=1000
+#
+#__CORE_OVERCLOCK_3=-100
+#MEMORY_OVERCLOCK_3=1000
+#
+#__CORE_OVERCLOCK_4=-100
+#MEMORY_OVERCLOCK_4=1000
+#
+#__CORE_OVERCLOCK_5=-100
+#MEMORY_OVERCLOCK_5=800
+#
+#__CORE_OVERCLOCK_6=-100
+#MEMORY_OVERCLOCK_6=1000
+#
 #
 ########################################################
 #                                                      #
